@@ -7,6 +7,7 @@ const errorReducer = (state = null, action) => {
         case IMAGES.LOAD:
         case IMAGES.LOAD_SUCCESS:
             return null;
+
         default:
             return state;
     }
